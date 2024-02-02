@@ -23,6 +23,7 @@ html {
 }
 
 .container {
+    margin: auto;
     width: 1170px;
 
     @media (width <= $lg) {

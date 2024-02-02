@@ -1,0 +1,31 @@
+.download {
+    padding: 114px 170px;
+    background-color: #fff;
+}
+
+.download-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.download-title {
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    @include text_3;
+}
+
+.download-info {
+    text-align: center;
+    margin-bottom: 38px;
+
+    p {
+        text-transform: uppercase;
+        @include text_5;
+    }
+}
+
+.download-link {
+    margin: auto;
+    @include button($button-hover-color);
+}
