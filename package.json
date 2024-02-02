@@ -1,0 +1,16 @@
+{
+  "name": "lesson-10-sass",
+  "version": "1.0.0",
+  "description": "some text",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}

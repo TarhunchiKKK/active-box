@@ -1,0 +1,72 @@
+@import './cdn.scss';
+@import './variables.scss';
+@import './mixins.scss';
+@import './header.scss';
+@import './banner.scss';
+@import './features.scss';
+@import './work.scss';
+@import './our_team.scss';
+@import './testimonials.scss';
+@import './download.scss';
+@import './footer.scss';
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+.button {
+    width: 369px;
+    height: 77.5px;
+    background: $button-normal-color;
+    text-align: center;
+
+    color: $white;
+    @include text_4;
+    // @include button_text;
+
+    &:hover {
+        background: $button-hover-color;
+    }
+    &:active {
+        background: $button-active-color;
+        box-shadow: $button-shadow;
+    }
+}
+
+.navigation {
+    width: 134px;
+    height: 63px;
+
+    color: $white;
+    @include text_6;
+
+    &:hover {
+        @include navigation_underline($nav-hover-underline-color);
+    }
+
+    &:active {
+        color: $nav-active-color;
+        @include navigation_underline($nav-active-color);
+    }
+}
+
+.work {
+    width: 378px;
+    height: 340px;
+
+    &:hover {
+        @include work_mask($work-hover);
+    }
+
+    &:active {
+        @include work_mask($work-active);
+    }
+}
