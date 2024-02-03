@@ -1,36 +1,54 @@
 @mixin text_1 {
     font-family: 'Raleway';
     font-weight: 900;
-    font-size: 4rem;
     line-height: 75px;
+    font-size: 64px;
+    @media(width <= $md) {
+        font-size: 48px;
+    }
+    @media(width <= $sm) {
+        font-size: 36px;
+    }
 }
 
 @mixin text_2 {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 2.25rem;
     line-height: 42px;
+    font-size: 36px;
 }
 
 @mixin text_3 {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 1.875rem;
     line-height: 35px;
+    font-size: 30px;
+    @media(width <= $md) {
+        font-size: 24px;
+    }
+    @media(width <= $sm) {
+        font-size: 18px;
+    }
 }
 
 @mixin text_4 {
     font-family: 'Raleway';
     font-weight: 900;
-    font-size: 1.5rem;
     line-height: 24px;
+    font-size: 24px;
+    @media(width <= $md) {
+        font-size: 18px;
+    }
 }
 
 @mixin text_5 {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 1.125rem;
     line-height: 21px;
+    font-size: 18px;
+    @media(width <= $md) {
+        font-size: 14px;
+    }
 }
 
 @mixin text_6 {
@@ -38,12 +56,20 @@
     font-weight: 700;
     font-size: 0.8125rem;
     line-height: 15px;
+    font-size: 13px;
+    @media(width <= $md) {
+        font-size: 12px;
+    }
+    @media(width <= $sm) {
+        font-size: 13px;
+    }
 }
 
 @mixin button($background-color) {
     width: 370px;
     height: 80px;
     display: block;
+    margin: auto;
     background-color: $background-color;
 
     line-height: 80px;
@@ -51,8 +77,20 @@
 
     font-family: 'Raleway';
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #fff;
+
+    &:hover {
+        background: $button-hover-color;
+    }
+    &:active {
+        background: $button-active-color;
+        box-shadow: $button-shadow;
+    }
+
+    @media (width <= 414px) {
+        width: calc(100% - 10px);
+    }
 }
 
 @mixin navigation_underline($color) {

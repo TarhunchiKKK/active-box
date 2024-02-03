@@ -1,31 +1,42 @@
 .download {
-    padding: 114px 170px;
+    padding: 114px 0;
     background-color: #fff;
+
+    @media (width <= $md) {
+        padding: 77px 0 78px;
+    }
+
+    @media (width <= 550px) {
+        padding: 34px 0 45px;
+    }
 }
 
 .download-wrapper {
-    width: 100%;
-    margin: auto;
+
 }
 
 .download-title {
     text-align: center;
-    height: 70px;
-    line-height: 70px;
     @include text_3;
+
+    @media (width <= 590px)  {
+        margin: auto;
+        width: 85%;
+    }
 }
 
 .download-info {
+    margin: 20px auto 43px;
     text-align: center;
-    margin-bottom: 38px;
-
     p {
-        text-transform: uppercase;
         @include text_5;
+    }
+
+    @media (width <= 550px) {
+        margin-bottom: 11px;
     }
 }
 
 .download-link {
-    margin: auto;
-    @include button($button-hover-color);
+    @include button($button-normal-color);
 }

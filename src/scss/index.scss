@@ -27,32 +27,18 @@ html {
     width: 1170px;
 
     @media (width <= $lg) {
-        width: 1170px;
+        width: calc(100% - 20px);
     }
 
     @media (width <= $md) {
-        width: 984px;
+        width: 96%;
     }
+
+    // @media (width <= 100px){
+    //     width: 87%;
+    // }
 }
 
-.button {
-    width: 369px;
-    height: 77.5px;
-    background: $button-normal-color;
-    text-align: center;
-
-    color: $white;
-    @include text_4;
-    // @include button_text;
-
-    &:hover {
-        background: $button-hover-color;
-    }
-    &:active {
-        background: $button-active-color;
-        box-shadow: $button-shadow;
-    }
-}
 
 .navigation {
     width: 134px;

@@ -2,48 +2,99 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css";
 .download {
   background-color: #fff;
-  padding: 114px 170px;
+  padding: 114px 0;
 }
 
-.download-wrapper {
-  width: 100%;
-  margin: auto;
+@media (width <= 1024px) {
+  .download {
+    padding: 77px 0 78px;
+  }
+}
+
+@media (width <= 550px) {
+  .download {
+    padding: 34px 0 45px;
+  }
 }
 
 .download-title {
   text-align: center;
-  height: 70px;
   font-family: Raleway;
-  font-size: 1.875rem;
+  font-size: 30px;
   font-weight: 700;
   line-height: 35px;
 }
 
+@media (width <= 1024px) {
+  .download-title {
+    font-size: 24px;
+  }
+}
+
+@media (width <= 320px) {
+  .download-title {
+    font-size: 18px;
+  }
+}
+
+@media (width <= 590px) {
+  .download-title {
+    width: 85%;
+    margin: auto;
+  }
+}
+
 .download-info {
   text-align: center;
-  margin-bottom: 38px;
+  margin: 20px auto 43px;
 }
 
 .download-info p {
-  text-transform: uppercase;
   font-family: Raleway;
-  font-size: 1.125rem;
+  font-size: 18px;
   font-weight: 700;
   line-height: 21px;
+}
+
+@media (width <= 1024px) {
+  .download-info p {
+    font-size: 14px;
+  }
+}
+
+@media (width <= 550px) {
+  .download-info {
+    margin-bottom: 11px;
+  }
 }
 
 .download-link {
   text-align: center;
   color: #fff;
-  background-color: #e71414;
+  background-color: #ff4343;
   width: 370px;
   height: 80px;
   margin: auto;
   font-family: Raleway;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 900;
   line-height: 80px;
   display: block;
+}
+
+.download-link:hover {
+  background: #e71414;
+}
+
+.download-link:active {
+  background: #ff4343;
+  box-shadow: 4px 4px 30px #ff4343;
+}
+
+@media (width <= 414px) {
+  .download-link {
+    width: calc(100% - 10px);
+  }
 }
 
 * {
@@ -65,35 +116,14 @@ html {
 
 @media (width <= 1510px) {
   .container {
-    width: 1170px;
+    width: calc(100% - 20px);
   }
 }
 
 @media (width <= 1024px) {
   .container {
-    width: 984px;
+    width: 96%;
   }
-}
-
-.button {
-  text-align: center;
-  color: #fff;
-  background: #ff4343;
-  width: 369px;
-  height: 77.5px;
-  font-family: Raleway;
-  font-size: 1.5rem;
-  font-weight: 900;
-  line-height: 24px;
-}
-
-.button:hover {
-  background: #e71414;
-}
-
-.button:active {
-  background: #ff4343;
-  box-shadow: 4px 4px 30px #ff4343;
 }
 
 .navigation {
@@ -101,9 +131,21 @@ html {
   width: 134px;
   height: 63px;
   font-family: Raleway;
-  font-size: .8125rem;
+  font-size: 13px;
   font-weight: 700;
   line-height: 15px;
+}
+
+@media (width <= 1024px) {
+  .navigation {
+    font-size: 12px;
+  }
+}
+
+@media (width <= 320px) {
+  .navigation {
+    font-size: 13px;
+  }
 }
 
 .navigation:hover:after {
