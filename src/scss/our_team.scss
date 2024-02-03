@@ -1,9 +1,11 @@
 .team{
     background-color: #fff;
     padding: 114px 0;
+
     @media (width <= $lg) {
         padding: 78px 0;
     }
+    
     @media (width <= $md) {
         padding: 35px 0 41px;
     }
@@ -12,10 +14,11 @@
 .team-wrapper {
     display: flex;
     flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
 
-    @media (width <= $lg) {
-        
+    @media (width <= 661px) {
+        flex-direction: column;
     }
 }
 
@@ -24,14 +27,35 @@
     display: flex;
     flex-direction: column;
 
-    @media (width <= $lg) {
+    @media (width <= 1430px) {
+        width: 30%;
+        margin-bottom: 35px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (width <= 1050px) {
+        width: 45%;
+        &:nth-last-child(1), &:nth-last-child(2) {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (width <= 661px) {
         width: 100%;
+        margin-bottom: 56px;
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 }
 
 .person-card__img {
     width: 100%;
     height: 270px;
+    overflow: hidden;
     margin-bottom: 30px;
 
     @media (width <= $lg) {
@@ -39,15 +63,15 @@
         margin-bottom: 25px;
     }
 
+    transition: 0.3s;
+    &:hover {
+        cursor: pointer;
+        scale: (1.05);
+    }
+
     img {
         object-position: center;
         object-fit: cover;
-
-        transition: 0.3s;
-        &:hover {
-            cursor: pointer;
-            scale: (1.05);
-        }
     }
 }
 
@@ -55,6 +79,7 @@
     @include text_4;
     font-weight: 700;
     margin-bottom: 5px;
+    
     @media (width <= $lg) {
         margin-bottom: 4.5px;
     }    
@@ -64,13 +89,14 @@
     font-family: Raleway;
     font-size: 18px;
     font-weight: 400;
-    // line-height: 21px;
     color: #FF4343;
     text-transform: uppercase;
     margin-bottom: 18px;
+    
     @media (width <= $lg) {
         margin-bottom: 22.5px;
     }
+    
     @media (width <= $md) {
         margin-bottom: 38.5px;
     }
@@ -79,6 +105,7 @@
 .person-card__info {
     margin-bottom: 38px;
     flex-grow: 1;
+    
     @media (width <= $lg) {
         margin-bottom: 39px;
     }
@@ -91,7 +118,6 @@
         font-family: Raleway;
         font-size: 18px;
         font-weight: 400;
-        // line-height: 21px;
         color: #6C7279;
 
         @media (width <= $lg) {
