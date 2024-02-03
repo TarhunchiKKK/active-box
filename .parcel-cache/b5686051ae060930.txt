@@ -1,15 +1,24 @@
-6036
-93/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/index.da533f7e.css1706942503800091779 0
-97/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/index.da533f7e.css.map1706942503804092268 0
+6050
+97/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/checkmark.cf349ef5.svg1706946879333795199 0
+94/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/basket.0b978a1e.svg1706946879333795199 0
+92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/edit.aee16518.svg1706946879333795199 0
+92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/star.a62ddc69.svg1706946879333795199 0
+93/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/index.da533f7e.css1706947382330930520 0
+97/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/index.da533f7e.css.map1706947382330930520 0
 92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/our_team.scss1706867292611584640 0
-91/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/_mixins.scss1706942218437210296 0
+91/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/_mixins.scss1706943354322295413 0
 90/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/banner.scss1706867249050245373 0
 96/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/testimonials.scss1706867308740031564 0
-89/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/index.scss1706942111708164215 0
-92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/download.scss1706942503624070263 0
+89/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/index.scss1706943354326295738 0
+92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/download.scss1706943354322295413 0
 88/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/work.scss1706867272939005993 0
 88/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/_cdn.scss1706873855881592164 0
-84/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/index.html1706906423605270891 0
+92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons/edit.svg1706946454474969565 0
+96/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons/computer.svg1706946897615170040 0
+97/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons/checkmark.svg1706946508054155263 0
+92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons/star.svg1706946501974170818 0
+77/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img1706946661776255401 1
+84/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/index.html1706946878985763664 0
 87/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/package-lock.json1706866805456712006 0
 102/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/braces/package.json1706866787271974235 0
 98/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/braces/index.js1706866787363978310 0
@@ -718,6 +727,7 @@
 134/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/_/_class_static_private_field_spec_get1706866790640121018 1
 139/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/_/_check_private_redeclaration/package.json1706866790316107134 0
 99/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/LICENSE1706866787339977247 0
+94/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons/basket.svg1706946626212107438 0
 113/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/_/_async_iterator1706866790212102677 1
 117/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/nth-check/lib/esm/compile.d.ts.map1706866787687992660 0
 113/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/htmlparser2/lib/Tokenizer.d.ts1706866788316020319 0
@@ -1043,7 +1053,7 @@
 107/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/js-yaml/lib/type/bool.js1706866787379979018 0
 130/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/csso/node_modules/css-tree/cjs/parser/index.cjs1706866792456197983 0
 119/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-what/lib/commonjs/index.d.ts.map1706866788056008932 0
-97/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/active-box.59712999.js1706942111932191599 0
+97/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/active-box.59712999.js1706946879333795199 0
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/weak-lru-cache/rollup.config.js1706866789260061538 0
 101/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/js-yaml/lib/schema1706866788356022071 1
 104/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/lib/index.js1706866790564117761 0
@@ -1381,7 +1391,7 @@
 124/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/_/_skip_first_generator_next1706866791356151540 1
 121/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/features/temporal.js1706866792972219637 0
 103/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/lmdb/dependencies/v81706866791408153745 1
-74/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist1706942503804092268 1
+74/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist1706947382330930520 1
 132/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/esm/_define_enumerable_properties.js1706866789524072974 0
 109/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-what/lib/es/index.d.ts1706866788296019443 0
 132/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/features/hardwareconcurrency.js1706866791660164430 0
@@ -1594,7 +1604,7 @@
 139/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/_/_is_native_reflect_construct/package.json1706866791096140516 0
 120/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/features/rellist.js1706866792732209566 0
 109/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/msgpackr/dist/index.min.js1706866789888088741 0
-92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/features.scss1706867263138702237 0
+92/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss/features.scss1706947382214926857 0
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/regions/LU.js1706866792260189758 0
 116/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/features/eme.js1706866791280148317 0
 135/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/features/page-transition-events.js1706866792568202683 0
@@ -1624,6 +1634,7 @@
 139/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/csso/node_modules/css-tree/lib/generator/token-before.js1706866793176228125 0
 111/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/lib/syntax/function1706866790964134902 1
 117/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/lmdb/dependencies/lz4/lib/Makefile1706866790524116047 0
+96/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/computer.aa5bb41b.svg1706946931543176253 0
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/regions/PT.js1706866792708208559 0
 132/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/Doxyfile1706866790440112447 0
 122/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/lib/syntax/atrule/font-face.js1706866790484114333 0
@@ -2095,6 +2106,7 @@
 128/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/csso/node_modules/css-tree/cjs/utils/List.cjs1706866792492199494 0
 105/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/runtime-js/lib1706866788728038363 1
 116/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/svgo/plugins/removeXMLProcInst.js1706866789768083543 0
+93/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/light.18b3e663.svg1706946879333795199 0
 155/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Function.js1706866789232060325 0
 132/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@babel/highlight/node_modules/chalk/index.js.flow1706866787371978664 0
 120/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/cjs/syntax/config/walker.cjs1706866789868087874 0
@@ -2136,7 +2148,7 @@
 126/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/core/test/fixtures/invalid-distpath1706866793128226131 1
 104/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/msgpackr/dist/test.js1706866790020094450 0
 122/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/lmdb/node_modules/node-addon-api/napi.h1706866792304191605 0
-73/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src1706874495947126376 1
+73/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src1706946656177472045 1
 100/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/base-x/LICENSE.md1706866790172100963 0
 142/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_stat.c1706866790700123589 0
 135/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/csso/node_modules/css-tree/lib/parser/SyntaxError.js1706866793172227959 0
@@ -2323,7 +2335,7 @@
 116/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/htmlnano/lib/modules/minifyJs.cjs1706866788508028728 0
 109/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/utils/package.json1706866791948176642 0
 122/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/transformer-babel/src/config.js1706866788164013662 0
-69/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box1706906439060408673 1
+69/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box1706943129919701314 1
 143/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/svgo/lib/svgo/plugins.js1706866788772040290 0
 102/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/lib/walker1706866790604119475 1
 101/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/fs/LICENSE1706866790852130102 0
@@ -2614,7 +2626,7 @@
 122/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/cjs/syntax/node/StyleSheet.cjs1706866789688080077 0
 142/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_copy.11706866790540116733 0
 142/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/_/_class_private_field_loose_base/package.json1706866790540116733 0
-85/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/index.html1706942111920190133 0
+85/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/index.html1706946879333795199 0
 104/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/ansi-styles/readme.md1706866787387979373 0
 105/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/string-width/readme.md1706866787351977778 0
 103/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/emoji-regex/index.js1706866787299975475 0
@@ -3166,6 +3178,7 @@
 113/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-what/lib/commonjs/parse.js1706866787595988585 0
 117/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/core/test/fixtures/context1706866793096224801 1
 118/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/svgo/plugins/removeScriptElement.js1706866789680079731 0
+83/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons1706946931443196329 1
 113/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/cjs/_defaults.cjs1706866788680036261 0
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/regions/IS.js1706866791996178677 0
 117/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/features/calc.js1706866790132099249 0
@@ -5205,7 +5218,7 @@
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/regions/IQ.js1706866791988178338 0
 122/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/node-resolver-core/package.json1706866790116098564 0
 99/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/profiler1706866791200144925 1
-101/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/active-box.59712999.js.map1706942111940192578 0
+101/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/dist/active-box.59712999.js.map1706946879337795561 0
 102/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/ordered-binary/dist1706866789120055474 1
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/caniuse-lite/data/regions/ZW.js1706866793248231116 0
 110/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/utils/src/stream.js1706866791908174945 0
@@ -5845,6 +5858,7 @@
 117/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/core/lib/resolveOptions.js1706866792820213259 0
 120/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/core/lib/SymbolPropagation.js1706866792880215777 0
 108/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/core/lib/requests1706866793048222807 1
+93/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/img/icons/light.svg1706946619320102625 0
 127/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/svgo/bin1706866787339977247 1
 146/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-htmlnano/node_modules/css-select/lib/index.js1706866787864000455 0
 114/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/css-tree/lib/syntax/node/CDC.js1706866789988093072 0
@@ -5953,7 +5967,7 @@
 155/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/Brackets.js1706866788100010859 0
 161/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/MediaQueryList.js1706866789652078518 0
 159/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/MediaFeature.js1706866789636077825 0
-78/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss1706867330852609696 1
+78/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/src/scss1706943354326295738 1
 157/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/MediaQuery.js1706866789644078172 0
 113/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@swc/helpers/cjs/_ts_param.cjs1706866789084053915 0
 162/home/tarhunchickkk/Рабочий стол/Projects/Pages/active-box/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/node/DeclarationList.js1706866789072053395 0
