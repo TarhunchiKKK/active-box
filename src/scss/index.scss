@@ -69,3 +69,41 @@ html {
         @include work_mask($work-active);
     }
 }
+
+.soial-icon {
+    width: 39px;
+    height: 39px;
+    margin-right: 5px;
+    border: 1px solid #C6CBCD;
+    
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+        background-color: rgb(198, 203, 205, 0.35);
+        // color: #fff;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media (width <= $lg) {
+        width: 33px;
+        height: 33px;
+        margin-right: 4px;
+    }
+
+    @media (width <= $md) {
+        width: 39.6px;
+        height: 39.6px;
+        margin-right: 6px;
+    }
+
+    i {
+        color: #C6CBCD;
+        font-size: 18px;
+    }
+}
