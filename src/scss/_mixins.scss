@@ -97,7 +97,8 @@
     &::after {
         content: '';
         display: block;
-        margin: 32px auto 0;
+        position: absolute;
+        margin-top: 40px;
         width: 134px;
         height: 3px;
         background: $color;
