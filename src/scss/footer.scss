@@ -52,6 +52,10 @@
     @media (width <= 600px) {
         order:inherit;
     }
+
+    @media (width <= 360px) {
+        width: 100%;
+    }
 }
 
 .footer-item-title {
@@ -107,6 +111,10 @@
 
     @media (width <= 400px) {
         width: 280px;
+    }
+
+    @media (width <= 300px) {
+        width: 87.5%;
     }
 }
 

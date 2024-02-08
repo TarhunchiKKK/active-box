@@ -16,6 +16,10 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+
+    @media (width <= 550px) {
+        flex-direction: column;
+    }
 }
 
 .feature {
@@ -36,9 +40,21 @@
     }
 
     @media (width <= 800px) {
-        width: 100%;
+        width: 47%;
         margin-bottom: 49px;
+        
+        &:nth-last-child(1) {
+            margin-bottom: 0;
+        }
+    
+        &:nth-last-child(2) {
+            margin-bottom: 0;
+        }
+    }
 
+    @media (width <= 550px) {
+        width: 90%;
+        margin-bottom: 49px;
         &:last-child {
             margin-bottom: 0;
         }
