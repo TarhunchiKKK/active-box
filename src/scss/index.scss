@@ -33,28 +33,6 @@ html {
     @media (width <= $md) {
         width: 96%;
     }
-
-    // @media (width <= 100px){
-    //     width: 87%;
-    // }
-}
-
-
-.navigation {
-    width: 134px;
-    height: 63px;
-
-    color: $white;
-    @include text_6;
-
-    &:hover {
-        @include navigation_underline($nav-hover-underline-color);
-    }
-
-    &:active {
-        color: $nav-active-color;
-        @include navigation_underline($nav-active-color);
-    }
 }
 
 .work {
