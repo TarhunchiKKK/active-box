@@ -29,8 +29,8 @@
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    border-bottom: 1px solid #BABBC5;
     margin: 0 auto 129px;
+    position: relative;
 
     @media (width <= 640px) {
         width: 87.5%;
@@ -38,6 +38,16 @@
         border-bottom: none;
         margin-bottom: 50px;
     }
+}
+
+.navigation-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 100%;
+    left: 0;
+    background-color: #BABBC5;
 }
 
 .logo-part {
