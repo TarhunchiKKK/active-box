@@ -51,6 +51,8 @@
 
     @media (width <= 600px) {
         order:inherit;
+        margin-bottom: 59px;
+        margin-top: 69px;
     }
 
     @media (width <= 360px) {
@@ -64,6 +66,26 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 29px;
+
+    @media (width <= $md) {
+        margin-bottom: 17px;
+    }
+
+    @media (width <= 600px) {
+        margin-bottom: 36px;
+    }
+}
+
+.footer-item-with-icons .footer-item-title {
+    margin-bottom: 49px;
+
+    @media (width <= $md) {
+        margin-bottom: 32px;
+    }
+
+    @media (width <= 752px) {
+        margin-bottom: 29px;
+    }
 }
 
 .footer-item-content {
