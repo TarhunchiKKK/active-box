@@ -29,8 +29,6 @@ function setCurrentSlide(n) {
     hideDots()
     slides[n].style.display = 'flex'
     dots[n].style.backgroundColor = '#7E5D6F'
-
-    console.log(slides[n].style.height)
 }
 
 function startAnimation() {
@@ -41,5 +39,3 @@ function startAnimation() {
 }
 
 startAnimation()
-
-// setCurrentSlide(2)
