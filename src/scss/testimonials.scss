@@ -1,0 +1,132 @@
+.swiper {
+    width: 100%;
+    height: 535px;
+
+    @media (width <= $md) {
+        height: 332px;
+    }
+
+    @media (width <= 730px) {
+        height: 570px;
+    }
+}
+
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    @media (width <= 730px) {
+        flex-direction: column;
+    }
+}
+
+.swiper-slide-img {
+    width: 50%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    overflow: hidden;
+
+    @media (width <= 730px) {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.swiper-slide-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5C3249;
+    
+    @media (width <= 730px) {
+        width: 100%;
+        height: 326px;
+    }
+
+    @media (width <= 470px) {
+        align-items: start;
+        padding-top: 20px;
+    }
+}
+
+.swiper-slide:nth-child(even) .swiper-slide-content {
+    background-color: blueviolet;
+}
+
+.swiper-slide-content-info {
+    width: 50%;
+    height: 50%;
+
+    @media (width <= 1300px) {
+        width: 70%;
+    }
+}
+
+.swiper-slide-title {
+    font-family: 'Cardo';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 20px;
+
+    @media (width <= $md) {
+        font-size: 24px;
+    }
+}
+
+.swiper-slide-span {
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #fff;
+    
+    @media (width <= $md) {
+        font-size: 12px;
+    }
+}
+
+.swiper-pagination {
+    width: 170px;
+    margin: auto;
+
+    @media (width <= 470px) {
+        width: 130px;
+    }
+}
+
+.swiper-pagination {
+    margin-top: 31px;
+}
+
+.swiper-pagination-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-pagination-item {
+    width: 14px;
+    height: 14px;
+    border: 1px solid #7E5D6F;
+    border-radius: 50%;
+
+    @media (width <= 430px) {
+        width: 9px;
+        height: 9px;
+    }
+}
