@@ -80,6 +80,11 @@
     font-size: 24px;
     color: #fff;
 
+    animation-name: button_pulsing;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+
     &:hover {
         background: $button-hover-color;
     }
@@ -90,6 +95,24 @@
 
     @media (width <= 414px) {
         width: calc(100% - 10px);
+    }
+}
+
+@keyframes button_pulsing {
+    0% {
+        transform: none;
+    }
+    5%{
+        transform: scale(1.1);
+    }
+    10% {
+        transform: none;
+    }
+    15% {
+        transform: scale(1.1);
+    }
+    20% {
+        transform: none;
     }
 }
 
@@ -116,7 +139,6 @@
             left: 0;
             background: linear-gradient(0deg, rgba(255, 67, 67, 0.8), rgba(255, 67, 67, 0.8)),
             linear-gradient(0deg, #FFFFFF, #FFFFFF);
-            
         }
     }
 }
