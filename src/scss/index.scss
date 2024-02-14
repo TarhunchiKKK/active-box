@@ -35,19 +35,6 @@ html {
     }
 }
 
-.work {
-    width: 378px;
-    height: 340px;
-
-    &:hover {
-        @include work_mask($work-hover);
-    }
-
-    &:active {
-        @include work_mask($work-active);
-    }
-}
-
 .soial-icon {
     width: 39px;
     height: 39px;
