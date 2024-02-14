@@ -38,9 +38,6 @@
 
     @media (width <= 1050px) {
         width: 45%;
-        &:nth-last-child(1), &:nth-last-child(2) {
-            margin-bottom: 0;
-        }
     }
 
     @media (width <= 661px) {
@@ -116,7 +113,7 @@
 
     p {
         font-family: Raleway;
-        font-size: 18px;
+        font-size: 18px;    
         font-weight: 400;
         color: #6C7279;
 
