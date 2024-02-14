@@ -85,6 +85,8 @@
     animation-delay: 5s;
     animation-iteration-count: infinite;
 
+    transition: 0.4s;
+
     &:hover {
         background: $button-hover-color;
     }
@@ -125,20 +127,5 @@
         width: 100%;
         height: 3px;
         background: $color;
-    }
-}
-
-@mixin work_mask ($mask-color){
-    &:hover {
-        &::after {
-            content: '';
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: linear-gradient(0deg, rgba(255, 67, 67, 0.8), rgba(255, 67, 67, 0.8)),
-            linear-gradient(0deg, #FFFFFF, #FFFFFF);
-        }
     }
 }

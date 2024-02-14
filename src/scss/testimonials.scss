@@ -125,8 +125,14 @@
     border: 1px solid #7E5D6F;
     border-radius: 50%;
 
+    transition: 0.1s;
+
     @media (width <= 430px) {
         width: 9px;
         height: 9px;
+    }
+
+    &:hover {
+        border: 2px solid #7E5D6F;
     }
 }

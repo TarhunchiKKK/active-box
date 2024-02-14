@@ -49,10 +49,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
 
-.work-bg:hover {
-    opacity: 0.9;
+    transition: 0.7s;
+
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 .work-project-title {

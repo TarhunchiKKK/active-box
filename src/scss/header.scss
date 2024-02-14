@@ -119,7 +119,10 @@
         text-align: left;
     }
 
+    transition: 0.4s;
+
     &:hover {
+        cursor: pointer;
         @include navigation_underline($nav-hover-underline-color);
     }
 
