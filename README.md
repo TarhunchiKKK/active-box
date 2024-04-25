@@ -6,7 +6,7 @@ This site is designed according to <a href="https://www.figma.com/file/D3hs2PC8u
 
 This site has full adaptivity (not only 1510px, 1024px and 320px).
 
-
+<a href="https://ru.parceljs.org/getting_started.html">Parcel</a> and <a href="https://sass-lang.com/guide/">SCSS</a> were used for layout.
 
 <h3>
     See on <a href="https://tarhunchikkk.github.io/active-box/dist/index.html">Hithub Pages</a>.
