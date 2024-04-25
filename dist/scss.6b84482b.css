@@ -20,7 +20,7 @@
 }
 .header {
   padding-bottom: 120px;
-  background: url("/header.5ab41d0e.png");
+  background: url("header.5ab41d0e.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1148,4 +1148,4 @@ html {
   font-size: 18px;
 }
 
-/*# sourceMappingURL=/scss.6b84482b.css.map */
+/*# sourceMappingURL=scss.6b84482b.css.map */
